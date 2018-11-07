@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+
+  <!-- CSS/JS/bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="home-img">
+      <div class="container">
+
+        <div class="row home-row">
+          <div class="col">
+            <h1 class="text-center"><strong>find the one</strong></h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center">Let's see if we can find the one for you</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 offset-md-4">
+            <a href="/survey"><button class="btn btn-md"><h4>Let's Go!</h4></button></a>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/nlabrada/friendFinder">GitHub Repo</a></p>
+        </div>
+      </footer>
+
+    </div>
+
+  <!-- my css-->
+  <style>
+    body {
+      font-family: 'Titillium Web', sans-serif;
+      background-color: #c4e3e4;
+    }
+    .home-img {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: url("./images/cool.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+    }
+    footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .home-row{
+      margin-top: 10%;
+    }
+    .offset-md-4 {
+    margin-left: 43.333333%;
+}
+  </style>
+
+
+</body>
+
+</html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lookin' For Love 👀</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
+  </head>
+<body>
+    <!-- heading/container-->
+    <div class="container">
+      <div class="heading-stuff text-center">
+        <h1><strong>Meet the One 😍</strong>
+          <small class="text-muted">Answer Questions About Yourself!</small>
+        </h1>
+      </div>
+      <hr />
+      <!-- required new newDude info -->
+      <div class="newnewDudeInfo">
+        <h4>Name: (Required)</h4>
+        <input type="text" id="name" class="form-control" placeholder="Your Name"required><br>
+        <h4>Photo: (Also required, but no pressure)</h4>
+        <input type="text" id="photo" class="form-control" placeholder="https://..." required>
+      </div>
+      <hr />
+
+      <!--Question 1-->
+      <h5><strong>Question 1</strong></h5>
+      <p>Travelling is something you wish to do more often</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q1">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q1">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 2-->
+      <h5><strong>Question 2</strong></h5>
+      <p>You prefer having a set routine</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q2">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q2">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 3-->
+      <h5><strong>Question 3</strong></h5>
+      <p>You're always out pumping iron 💪</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q3">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q3">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 4-->
+      <h5><strong>Question 4</strong></h5>
+      <p>You put the needs of others before yourself</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q4">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q4">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 5-->
+      <h5><strong>Question 5</strong></h5>
+      <p>Creativity is something that comes easy</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q5">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q5">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+      <!--Question 6-->
+      <h5><strong>Question 6</strong></h5>
+      <p>Constantly looking for that next opportunity to get ahead</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q6">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q6">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 7-->
+      <h5><strong>Question 7</strong></h5>
+      <p>You think of yourself more as a leader, not a follower</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q7">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q7">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 8-->
+      <h5><strong>Question 8</strong></h5>
+      <p>You believe patience is a virtue</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q8">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q8">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 9-->
+      <h5><strong>Question 9</strong></h5>
+      <p>When conflicts arise, you try to put yourself in the other person's position</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q9">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q9">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--Question 10-->
+      <h5><strong>Question 10</strong></h5>
+      <p>Your friendships are very important to you</p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="q10">DECIDE!</label>
+        </div>
+        <select class="custom-select" id="q10">
+          <option selected>Choose...</option>
+          <option value="1">1 (Nah, son...)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="2">4</option>
+          <option value="2">5 (YEET!)</option>
+        </select>
+      </div>
+
+      <!--submit button-->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-lg btn-outline-info" id="submit">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          Finito!
+        </button>
+      </div>
+
+      <!--making modal-->
+      <div id="results-modal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Your Perfect Match 😍</h5>
+              <button type="button" class="reset-form close btn-outline-info" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <!-- match info -->
+            <div class="modal-body">
+                <h2 id="matchName"></h2>
+                <img id="matchPhoto" src="" alt="" width="400px">
+            </div>
+            <!-- close modal button -->
+            <div class="modal-footer">
+              <button class="reset-form btn btn-default" type="reset" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+    <!-- style -->
+    <style>
+    body {
+      font-family: 'Titillium Web', sans-serif;
+      background-color: #e7c6e7;
+    }
+
+    .heading-stuff {
+    margin-top: 2%;
+    }
+
+    .newUserInfo {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .btn {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .modal-content{
+      background-color: #faf8ff;
+    }
+    </style>
+
+    <!-- js -->
+    <script type="text/javascript">
+      // grabbing inputs !
+      $("#submit").on("click", function(event) {
+        event.preventDefault();
+
+      // making sure all required stuff is there
+      if (!$("#name").val() || !$("#photo").val()) {
+        alert("Make sure you filled out your info!");
+      } else {
+
+        // making var for new dude
+        var newDude = {
+            name: $("#name").val().trim(),
+            photo: $("#photo").val().trim(),
+            scores: [
+              $("#q1").val(),
+              $("#q2").val(),
+              $("#q3").val(),
+              $("#q4").val(),
+              $("#q5").val(),
+              $("#q6").val(),
+              $("#q7").val(),
+              $("#q8").val(),
+              $("#q9").val(),
+              $("#q10").val()
+            ]
+        };
+
+        // displaying the match info
+        $.post("/api/friends", newDude, function(data) {
+          $("#matchName").text(data.name);
+          $("#matchPhoto").attr("src", data.photo);
+
+          $("#results-modal").modal("toggle");
+        });
+      };
+    });
+
+      //making function to reset inputs
+      $(".reset-form").on("click", reset);
+        function reset() {
+          newDude = {
+            name: $("#name").val(""),
+            photo: $("#photo").val(""),
+            scores: [
+              $("#q1").val(""),
+              $("#q2").val(""),
+              $("#q3").val(""),
+              $("#q4").val(""),
+              $("#q5").val(""),
+              $("#q6").val(""),
+              $("#q7").val(""),
+              $("#q8").val(""),
+              $("#q9").val(""),
+              $("#q10").val("")
+            ]
+        };
+      };
+    </script>
+
+</body>
+
+</html>
